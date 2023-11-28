@@ -2,7 +2,7 @@ body {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
-    
+    font-size: 20px;
     justify-content: center;
     padding-top: 10px;
 }
@@ -51,6 +51,7 @@ perspective: 800px;
     color: red;
 }
 
+
 @keyframes roll {
     0% {
         transform: rotateY(0deg);
@@ -62,3 +63,4 @@ perspective: 800px;
         transform: rotateY(180deg);
     }
 }
+
